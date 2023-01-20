@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhargav Fitness</title>
+    <link rel="stylesheet" media="screen and (max-width:1200px)" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    
+    .right {
+        margin: 0px;
+        color: #c9e225;
+        /* border: 3px solid rgb(37, 208, 231); */
+        display: inline-block;
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+
+    .left {
+        margin: 0px;
+        /* border: 3px solid rgb(144, 249, 47); */
+        display: inline-block;
+        left: 40px;
+        top: 20px;
+        color: #fa7a0b;
+
+    }
+
+    .left img {
+        width: 150px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 22px;
+        font-size: 28px;
+    }
+
+    .mid {
+        /*  steps for center= display-> block, margin -> auto, set width  */
+        /* border: 3px solid rgb(164, 13, 25); */
+        display: 20px block;
+        width: 50%;
+        margin: -81px auto;
+    }
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        color: rgb(7, 63, 4);
+        margin: 0 px;
+        padding: 0 px;
+        background: url('weight-lifting.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 4000px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 30px;
+
+    }
+
+    .navbar li a {
+        color: rgb(240, 21, 21);
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(209, 209, 17);
+    }
+
+    .btun {
+        font-family: 'Raleway', sans-serif;
+        margin: 0px 0px;
+        color: black;
+        background-color: azure;
+        padding: 4px 15px;
+        border-radius: 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .btun:hover {
+        background-color: rgb(76, 75, 75);
+        color: rgb(175, 179, 179);
+    }
+
+    .container {
+        border: 3px solid rgb(38, 235, 12);
+        margin: 146px 307px;
+        padding: 21px 96px;
+        border-radius: 44px;
+        width: 40%;
+
+    }
+
+    .container h1 {
+        color: rgb(250, 8, 20);
+    }
+
+    .formGroup input {
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        width: 408px;
+        padding: 7px 32px;
+        border: 4px groove #26ed36;
+        margin: 9px 5px;
+        border-radius: 19px;
+    }
+
+    .container button {
+        width: 25%;
+    display: block;
+    margin: 7px 186px;
+    }
+
+    
+</style>
+
+<body>
+    <header class="Header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="lion.jpg" alt="">
+            <div>Bhargav Fitness</div>
+        </div>
+        <div class="mid">
+
+            <!-- mid box for nevigation -->
+
+            <ul class="navbar">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#"> Fitness counter</a></li>
+                <li><a href="#"> Contect us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btun">Help</button>
+            <button class="btun">Contect us</button>
+
+            <!-- right box for bottons -->
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Best Gym of Delhi NCR</h1>
+        <form action="action.php">
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter your Name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Gender">
+                <input type="text" name="" placeholder="Enter your Locality">
+                <input type="email" name="" placeholder="Enter your Email adress">
+            </div>
+            <button class="btun">Submit</button>
+        </form>
+    </div>
+</body>
+
+</select>
+
+</html>

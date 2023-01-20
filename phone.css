@@ -1,0 +1,20 @@
+body{
+    overflow: hidden;
+}
+.header{
+overflow: hidden;
+}
+.container{
+   height: 200px;
+   flex-direction: column;
+   
+}
+.left{
+
+}
+.mid{
+
+}
+.right{
+
+}
